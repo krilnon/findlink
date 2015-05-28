@@ -10,6 +10,9 @@
 			"js": ["node_modules/babel-core/node_modules/regenerator/runtime.js", "findlink.js"],
 			"matches": ["<all_urls>"]
 		}
-	]
+	],
 
+	"icons": {
+		"128": "icon128.png"
+	}
 }
