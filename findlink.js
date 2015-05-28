@@ -7,7 +7,7 @@ document.addEventListener("load", tryFindScroll);
 
 function tryFindScroll() {
     if (location.hash) {
-        var query = parse(location.hash.substring(1));
+        var query = parse(decodeURIComponent(location.hash.substring(1)));
         if (query) {
             scrollToMatchingTextNode(query);
         }
